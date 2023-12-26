@@ -13,26 +13,26 @@
 	<div class="row">
   <div class="col">
 	  <label for="first-name-input" class="form-label">First Name</label>
-    <input type="text" id="first-name-input" class="form-control is-invalid" placeholder="First Name" required>
+    <input type="text" id="first-name-input" class="form-control" placeholder="First Name" required>
   </div>
   <div class="col">
 	  <label for="last-name-input" class="form-label">Last Name</label>
-    <input type="text" id="last-name-input" class="form-control" placeholder="Last Name">
+    <input type="text" id="last-name-input" class="form-control" placeholder="Last Name" required>
   </div>
   <div class="col">
-	   <label for="email-input" class="form-label">Email Address</label>
-    <input type="text" id="email-input" class="form-control" placeholder="xyz@abc.com">
+	   <label for="email" class="form-label">Email Address</label>
+    <input type="email" id="email" class="form-control" placeholder="xyz@abc.com" required>
   </div>
  </div>
 	<br>
 	<div class="row">
 <div class="col-md-6">
   <label for="college-input" class="form-label">College</label>
-  <input type="text" class="form-control" id="college-input">
+  <input type="text" class="form-control" id="college-input" required>
   </div>
 	 <div class="col-md-3">
-    <label for="graduation-year-input" class="form-label">Graduation Year</label>
-    <select id="graduation-year-input" class="form-select">
+    <label for="grad-year-select" class="form-label">Graduation Year</label>
+    <select id="grad-year-select" class="form-select" required>
       <option selected>Choose...</option>
       <option>2020</option>
 	  <option>2021</option>
@@ -42,14 +42,14 @@
   </div>
 	 <div class="col-md-3">
     <label for="roll-no-input" class="form-label">Roll No.</label>
-    <input type="number" class="form-control" id="roll-no-input">
+    <input type="number" class="form-control" id="roll-no-input" required>
   </div>	
 </div>
 
 	<div class="row">
 	 <div class="col-12">
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="conditions-checkbox">
+      <input class="form-check-input" type="checkbox" id="conditions-checkbox" required>
       <label class="form-check-label" for="conditions-checkbox">
         Agree to Terms and Conditions
       </label>
